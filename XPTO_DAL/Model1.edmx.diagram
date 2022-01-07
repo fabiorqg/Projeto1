@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="39bd79c3a9b24ea281445890388f169e" Name="Diagram1">
+        <EntityTypeShape EntityType="ReceitasXPTOModel.Categoria" Width="1.5" PointX="0.625" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ReceitasXPTOModel.GrauDificuldade" Width="1.5" PointX="10.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ReceitasXPTOModel.Ingredientes" Width="1.5" PointX="3.875" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ReceitasXPTOModel.Quantidade" Width="1.5" PointX="1" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ReceitasXPTOModel.Receita" Width="1.5" PointX="6.375" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ReceitasXPTOModel.Utilizador" Width="1.5" PointX="10.25" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="ReceitasXPTOModel.FK_Receita_Categoria" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="ReceitasXPTOModel.FK_Receita_GrauDificuldade" ManuallyRouted="false" />
+        <AssociationConnector Association="ReceitasXPTOModel.Ingrediente_Quantidade" ManuallyRouted="false" />
+        <AssociationConnector Association="ReceitasXPTOModel.Receita_Ingrediente" ManuallyRouted="false" />
+        <AssociationConnector Association="ReceitasXPTOModel.Receita_Utilizador" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
